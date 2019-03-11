@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i');
+
+body{
+	font: 16px/1.1 'Lato', sans-serif;
+	color: #000;	
+	background-color: #000;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 30px;
+	line-height: 1;
+}
+
+/* Layout */
+.ba-container{
+	max-width: 1180px;
+}
+
+p{
+	margin: 0 0 10px;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+a:hover{
+	color: #444;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+.ba-intro{
+	color: #fff;
+	background: #444 url(../img/main.png) no-repeat 84%;
+	background-size: cover;
+}
+
+.ba-intro-inner{
+	padding: 100px 0;
+	min-height: 100vh;
+	text-align: center;
+	display: flex;
+	flex-direction: column;	
+	justify-content: center;
+	align-items: center; 
+	font-size: 30px;
+}
+
+.ba-header{
+	position: fixed;
+	z-index: 2;
+	left: 0;
+	top: 0;
+	right: 0;
+}
+
+.ba-header-bar{
+	display: flex;
+	justify-content: space-between;
+	/*align-items: center;*/
+	padding-top: 10px;
+}
+
+.ba-menu{
+	display: flex;
+	margin-right: 90px;
+	padding: 0;
+	list-style: none;
+}
+
+.ba-menu li{
+	padding-left: 30px;
+	line-height: 1;
+	font: 700 14px/1.8 'Lato', sans-serif;
+}
+
+
+h2{
+	font: 700 90px/1.8 'Lato', sans-serif;
+}
+
+.ba-button-hollow{
+	font: 700 18px/1.8 'Lato', sans-serif;
+	border: 2px solid #ddd;
+	box-sizing: border-box;
+	border-radius: 3px;
+	padding: 12px 58px;
+}
+
+.ba-intro-inner>p{
+	font: 400 14px/1.8 'Lato', sans-serif;
+}
+
+.ba-intro-inner>p:first-child{
+	font: 700 30px/0.8 'Times New Roman', serif;
+	font-style: italic;
+	letter-spacing: 1.8px; 
+}
