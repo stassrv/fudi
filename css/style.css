@@ -3,16 +3,17 @@
 body{
 	font: 16px/1.1 'Lato', sans-serif;
 	color: #000;	
-	background-color: #000;
+	background-color: #fff;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h3,h4,h5,h6{
 	margin: 0 0 30px;
 	line-height: 1;
 }
 
 /* Layout */
 .ba-container{
+	
 	max-width: 1180px;
 }
 
@@ -73,12 +74,12 @@ textarea {
 
 .ba-intro{
 	color: #fff;
-	background: #444 url(../img/main.png) no-repeat 84%;
+	background: #444 url(../img/main.png) no-repeat 50%;
 	background-size: cover;
 }
 
 .ba-intro-inner{
-	padding: 100px 0;
+	padding: 350px 0;
 	min-height: 100vh;
 	text-align: center;
 	display: flex;
@@ -105,20 +106,32 @@ textarea {
 
 .ba-menu{
 	display: flex;
-	margin-right: 90px;
+	justify-content: flex-end;
 	padding: 0;
 	list-style: none;
+	margin: 0;
+}
+
+nav{
+	display: flex;
+	align-items: center;
 }
 
 .ba-menu li{
+	margin: 0;
 	padding-left: 30px;
 	line-height: 1;
-	font: 700 14px/1.8 'Lato', sans-serif;
+	font: 700 12px/1.8 'Lato', sans-serif;
+	letter-spacing: 0.15em;
 }
 
 
 h2{
-	font: 700 90px/1.8 'Lato', sans-serif;
+	font: 700 100px/0.8 'Lato', sans-serif;
+	letter-spacing: 0.035em;
+	margin-top: 20px;
+	margin-bottom: 0;
+	padding: 0;
 }
 
 .ba-button-hollow{
@@ -126,15 +139,176 @@ h2{
 	border: 2px solid #ddd;
 	box-sizing: border-box;
 	border-radius: 3px;
-	padding: 12px 58px;
+	padding: 16px 81px;
+	margin-bottom: 36px;
+	margin-top: 40px;
 }
 
 .ba-intro-inner>p{
-	font: 400 14px/1.8 'Lato', sans-serif;
+	font: 400 15px/1.8 'Lato', sans-serif;
+	margin: 0;
 }
 
 .ba-intro-inner>p:first-child{
-	font: 700 30px/0.8 'Times New Roman', serif;
+	font: 700 36px/0.8 'Times New Roman', serif;
 	font-style: italic;
-	letter-spacing: 1.8px; 
+	letter-spacing: 1.8px;
+	margin-bottom: 0px; 
+}
+
+.ba-app-ico img{
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.ba-app-ico h3{
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	font: 700 18px/1 'Lato', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 24px;
+	letter-spacing: 0.04em;
+}
+
+.ba-app-ico p{
+	font: 300 18px/1.45 'Lato', sans-serif;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.ba-fudi-app{
+	background-color: #F4F4F4;
+}
+
+.ba-iphone5{
+	max-width: 100%;
+	
+}
+
+.ba-iphone5 img{
+	display: block;
+	max-width: 100%;
+	margin: 100px 10px;
+}
+
+.ba-iphone5-content{
+	max-width: 50%;
+	padding-top: 180px;
+	padding-left: 60px;
+}
+
+.ba-fudiapp-inner{
+	display: flex;
+	justify-content: space-between;
+}
+
+.ba-iphone5-content h3{
+	font: 700 18px/1.2 'Lato', sans-serif;
+	letter-spacing: 0.05em;
+}
+
+.ba-iphone5-content p{
+	font: 300 16px/1.6 'Lato', sans-serif;
+	margin-bottom: 30px;
+}
+
+.ba-fudi-google{
+	margin-left: 10px;
+}
+
+.ba-happy{
+	background: #444 url(../img/Rectangle\ 6.jpg) no-repeat 50%;
+	background-size: cover;
+}
+
+.ba-happy-inner{
+	text-align: center;
+	padding-bottom: 130px;
+}
+
+.ba-happy-inner img{
+	margin-top: 85px;
+	margin-bottom: 18px;
+}
+
+.ba-happy-inner p{
+	color: #fff;
+	font: 300 28px/1.5 'Lato', sans-serif;
+	letter-spacing: 0.02em;
+}
+
+.ba-happy-inner p>span{
+	color: #fff;
+	font: 300 16px/1.4 'Lato', sans-serif;
+	font-style: italic;
+	
+}
+
+.ba-cuisines{
+	margin-top: 100px;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.ba-cuisines-inner{
+	margin-top: 50px;
+}
+
+.ba-cuisines-inner{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+}
+
+.ba-cuisines-food{
+	width: 20%;
+	height: 100%;
+	display: block;
+	
+}
+
+.ba-cuisines-food a{
+	text-decoration: none;
+	position: relative;
+	display: block;	
+}
+
+.ba-cuisines-food a img{
+	display: block;
+	width: 100%;
+	z-index: 1;
+}
+
+.ba-cuisines-food a p{
+	position: absolute;
+	left: 40%;
+	height: 90%;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	z-index: 2;
+	font: 700 16px/1.4 'Times New Roman', serif;
+	font-style: italic;
+	margin: 0 auto;
+}
+
+.ba-cuisines-food a p>span{
+	font: 700 30px/1.4 'Lato', sans-serif;
+}
+
+.ba-fudi-price{
+	display: flex;
+	flex-direction: column;
+}
+
+.ba-fudi-price > li{
+	text-decoration: none;
+	list-style-type: none;
+	flex-direction: column;	
 }
